@@ -175,7 +175,7 @@ footer img{
     width: 7%;
 }
 
-@media and (min-width : 320px) and (max-width : 768px) {
+@media only all and (min-width : 320px) and (max-width : 768px) {
 	#enter-text h1{
 		font-size: 60px;
 		text-shadow: -5px 5px 0 #9c0019; 
@@ -218,7 +218,7 @@ footer img{
 	}
 
 }
-@media and (min-width : 769px) and (max-width : 992px) {
+@media only all and (min-width : 769px) and (max-width : 992px) {
 	#enter-text h1{
 		font-size: 60px;
 		text-shadow: -5px 5px 0 #9c0019; 
@@ -245,7 +245,7 @@ footer img{
 	.review-preview{
 		height: auto;
 		padding: 30px 0;
-		margin-top: -250px;
+		margin-top: -300px;
 	}
 	.parallax{
 		min-height: 600px;
