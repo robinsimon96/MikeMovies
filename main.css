@@ -175,7 +175,7 @@ footer img{
     width: 7%;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 768px) {
+@media only all and (min-width : 320px) and (max-width : 768px) {
 	#enter-text h1{
 		font-size: 60px;
 		text-shadow: -5px 5px 0 #9c0019; 
@@ -218,7 +218,7 @@ footer img{
 	}
 
 }
-@media only screen and (min-width : 769px) and (max-width : 992px) {
+@media only all and (min-width : 769px) and (max-width : 992px) {
 	#enter-text h1{
 		font-size: 60px;
 		text-shadow: -5px 5px 0 #9c0019; 
